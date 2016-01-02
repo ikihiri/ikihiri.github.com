@@ -14,8 +14,8 @@
  */
 
 #toc, .toc, .mw-warning {
-    background-color: #F9F9F9;
-    border: 1px solid #AAAAAA;
+    #background-color: #F9F9F9;
+    #border: 1px solid #AAAAAA;
     font-size: 95%;
     padding: 5px;
 }
@@ -27,7 +27,7 @@
     padding: 0;
 }
 #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
-    text-align: center;
+    #text-align: center;
 }
 #toc ul, .toc ul {
     list-style-image: none;
@@ -40,6 +40,7 @@
     margin: 0 0 0 2em;
 }
 #toc .toctoggle, .toc .toctoggle {
+    display: none;
     font-size: 94%;
 }
 
