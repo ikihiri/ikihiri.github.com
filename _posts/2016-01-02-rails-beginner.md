@@ -3,20 +3,20 @@ layout: post
 date: 2016-01-02 23:00:00
 category : rails
 tags : [rails, beginner]
-title : rails projectを始める時に参考にするかもしれない
+title : rails projectを始める時に参考にするかもしれない何か
 ---
 {% include JB/setup %}
 
 railsで何か作ろう！って思ったときに何入れていいか分からない人（俺）のためのメモ。
+
 主にテスト周りとか
 
 
 ## gemでいれちゃう
-### suspenders
-[https://github.com/thoughtbot/suspenders]
-thoughtbot社が作成したgem
 
-thoughtbot社でrails applicationを作成する時にbaseにしているらしい
+[suspenders](https://github.com/thoughtbot/suspenders): thoughtbot社が作成したgem
+
+thoughtbot社でrails applicationを作成する時にbaseにしているらしい  
 実際の会社で使われてるというだけで何か信頼感が増すような気がしてくる
 
 githubのREADMEから引用（下記はv1.35.0のもの）
@@ -61,8 +61,8 @@ githubのREADMEから引用（下記はv1.35.0のもの）
       Shoulda Matchers for common RSpec matchers
       Timecop for testing time
 
-ByeBugやBullet、Springとか。あとはtest周りのgemはよく見かけるものかな
-自分はmysqlを普段使ってますが、最近のスタートアップ企業での流行はPostgresらしいので、
+ByeBugやBullet、Springとか。あとはtest周りのgemはよく見かけるものかな  
+自分はmysqlを普段使ってますが、最近のスタートアップ企業での流行はPostgresらしいので、  
 新規だったらこのgem使ってみるのはアリなきがしますね
 
 
@@ -71,12 +71,12 @@ ByeBugやBullet、Springとか。あとはtest周りのgemはよく見かける�
 
     rails new new_project_name -m 取ってきたtemplate.rb
 
-[https://github.com/search?o=desc&q=rails+template&s=stars&source=c&type=Repositories](githubで人気のtemplate検索して)見つけるというのも一つの手ですが、
-正直、どれが良いかもわからない、、、といった初心者も多いのではないかなー、と。
+[githubで人気のtemplate検索して](https://github.com/search?o=desc&q=rails+template&s=stars&source=c&type=Repositories)見つけるというのも一つの手ですが、  
+正直、どれが良いかもわからない、、、といった初心者も多いのではないかなー、と。  
 下記辺りがおすすめです。
 
-[RailsのApplication templateを使って開発の初速をあげよう！](http://qiita.com/tachiba/items/26b2e9dc271bd8e6907d)
-[Rails 4.2 + Bootstrap の Application Template 1コマンドでモダンRailsが！](http://morizyun.github.io/blog/rails4-application-templates-heroku/)
+- [RailsのApplication templateを使って開発の初速をあげよう！](http://qiita.com/tachiba/items/26b2e9dc271bd8e6907d)
+- [Rails 4.2 + Bootstrap の Application Template 1コマンドでモダンRailsが！](http://morizyun.github.io/blog/rails4-application-templates-heroku/)
 
 ## 個人的な感想というかまとめ
 
