@@ -14,7 +14,7 @@ railsで何か作ろう！って思ったときに何入れていいか分から
 主にテスト周りとか
 
 
-## gemでいれちゃう
+# gemでいれちゃう
 
 [suspenders](https://github.com/thoughtbot/suspenders): thoughtbot社が作成したgem
 
@@ -68,7 +68,7 @@ ByeBugやBullet、Springとか。あとはtest周りのgemはよく見かける�
 新規だったらこのgem使ってみるのはアリなきがしますね
 
 
-## （他人の作った）Application Template使う
+# （他人の作った）Application Template使う
 他人のApplication Templateをどこかから取ってきてプロジェクト作成時に下記のように引数追加する感じですね
 
     rails new new_project_name -m 取ってきたtemplate.rb
@@ -80,7 +80,7 @@ ByeBugやBullet、Springとか。あとはtest周りのgemはよく見かける�
 - [RailsのApplication templateを使って開発の初速をあげよう！](http://qiita.com/tachiba/items/26b2e9dc271bd8e6907d)
 - [Rails 4.2 + Bootstrap の Application Template 1コマンドでモダンRailsが！](http://morizyun.github.io/blog/rails4-application-templates-heroku/)
 
-## 個人的な感想というかまとめ
+# 個人的な感想というかまとめ
 
 - とりあえず上記辺りに含まれているgemを参考にする
 - 社内とかにノウハウが溜まってきたら、Application Templateを作ってみる
