@@ -57,7 +57,7 @@ toggle（表示・非表示）いらないので無理矢理消した
           font-size: 94%;
       }
 
-alight centerやめた
+align centerやめた
 
      #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
      -    text-align: center;
