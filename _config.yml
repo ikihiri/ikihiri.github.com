@@ -12,9 +12,9 @@ title : hikimemo
 tagline: Site Tagline
 author :
   name : hiki
-#  email : blah@email.test
-#  github : ikihiri
-#  twitter : username
+  email : hiki_itawasa@example.com
+  github : ikihiri
+  twitter : hiki_itawasa
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
