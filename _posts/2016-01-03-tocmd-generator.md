@@ -50,14 +50,14 @@ postのlayout側で呼び出して
 とりあえず上記で表示までは出来る。  
 デフォルトのcssだとあんまり自分の文章と合わないので、ちょっと変えた
 
-- toggle（表示・非表示）いらないので無理矢理消した
+toggle（表示・非表示）いらないので無理矢理消した
 
      #toc .toctoggle, .toc .toctoggle {
      +    display: none;
           font-size: 94%;
       }
 
-- alight centerやめた
+alight centerやめた
 
      #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
      -    text-align: center;
