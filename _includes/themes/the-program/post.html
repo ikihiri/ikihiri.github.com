@@ -1,4 +1,16 @@
 <article class="unit-article layout-post">
+
+	<script type="text/javascript">
+		$(function() {
+			$('#main').toc({
+				showAlways:true,
+				renderIn:'#renderIn',
+				contentsText:"Legenda",
+				hideText:'Collapse',
+				showText:'Expand'
+			});
+		});
+	</script>
 	<div class="unit-inner unit-article-inner">
 		<div class="content">
 			<header>
@@ -9,7 +21,7 @@
 				</div><!-- unit-head -->
 			</header>
 
-			<div class="bd">
+			<div class="bd" id="post_main">
 				<div class="entry-content">
 					{{ content }}
 					<div class="meta">
